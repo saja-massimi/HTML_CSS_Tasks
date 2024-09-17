@@ -1,3 +1,10 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -9,7 +16,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px;
+
+}
+
+.logo img {
+    padding-left: 50px;
 }
 
 header {
@@ -27,11 +38,12 @@ header {
 
 main {
     grid-area: main;
-    background-color: blueviolet;
     grid-row: 2/5;
     grid-column: 2/5;
 
 }
+
+
 
 aside {
     grid-area: aside;
@@ -46,4 +58,51 @@ aside {
     background-color: black;
     margin: 6px 0;
 
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: bisque;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 140px;
+}
+
+.asideImage {
+    width: 30px;
+    height: 30px;
+}
+
+input {
+    border-radius: 20px;
+    border: 0.5px solid black;
+    text-align: left;
+    padding: 20px;
+    width: 530px;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
