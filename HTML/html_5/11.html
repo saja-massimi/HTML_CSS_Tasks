@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servey</title>
+    <style>
+        body {
+            background-color: rgb(119, 70, 183);
+        }
+
+        h1,
+        h5 {
+            text-align: center;
+            color: white
+        }
+
+        .servForm {
+            margin: auto;
+            padding: 0px;
+            background-color: rgb(31, 3, 71);
+            width: 50%;
+
+        }
+
+        label,
+        p {
+            color: white;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <h1>Amman Coding Academy Survey Form</h1>
+        <h5>Thank you for taking the time to help</h5>
+
+        <div class="servForm">
+            <form action="">
+                <fieldset>
+
+                    <label for="fname">Name</label> <br>
+                    <input type="text" id="fname" name="fname" placeholder="Enter your name" required><br><br>
+
+                    <label for="email">Email</label> <br>
+                    <input type="email" id="email" name="email" placeholder="Enter you email" required><br><br>
+
+                    <label for="fname">Age (optional)</label> <br>
+                    <input type="text" id="age" name="age" placeholder="Age"><br><br>
+
+                    <label for="fname">How did you like my survey</label> <br>
+                    <input type="text" id="opinion" name="opinion" placeholder="How did you like my survey"><br><br>
+
+                    <label>Would you recommend my pen to a friend</label><br>
+
+
+                    <label for="Definitely">Definitely</label><br>
+                    <input type="radio" id="Definitely" name="recommend" value="Definitely">
+
+                    <label for="maybe">Maybe</label><br>
+                    <input type="radio" id="maybe" name="recommend" value="maybe">
+
+
+                    <label for="notsure">Not Sure</label><br>
+                    <input type="radio" id="notsure" name="recommend" value="notsure">
+
+                    <br>
+
+                    <label for="feature">What is your favorite feature of codepen?</label> <br>
+                    <select id="feature" name="feature" required>
+                        <option value="e">Everything</option>
+                        <option value="s">Style</option>
+                    </select>
+                    <br><br>
+                    <p>What would you like to see improved in my servey? (Check all that apply)</p>
+                    <input type="checkbox" id="css" name="opinion" value="css">
+                    <label for="css">CSS needs to be more complex</label><br>
+
+                    <input type="checkbox" id="js" name="opinion" value="js">
+                    <label for="js">Use some javascript</label><br>
+
+                    <input type="checkbox" id="no" name="opinion" value="no">
+                    <label for="no">NO changes required</label>
+
+                    <br>
+
+                    <p>Any comments or suggestion?</p>
+                    <textarea name="comment" id="comment" cols="40" rows="20"
+                        placeholder="Enter your comment here ...."></textarea><br><br>
+                    <input type="submit" value="Submit" style="background-color: rgb(30, 169, 30); color:white;">
+                </fieldset>
+
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+.box {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.blue {
+    background-color: rgb(6, 147, 255);
+}
+
+.purple {
+    background-color: plum;
+}
+
+.darkBlue {
+    background-color: darkblue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.darkGreen {
+    background-color: green;
+}

@@ -1,0 +1,110 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: grey;
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 5px;
+}
+
+.allProducts {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.products img {
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+
+
+#logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+}
+
+header {
+    background-image: url("food2.jpg");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    text-align: center;
+    background-color: yellow;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.headerImage {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    margin: 20px;
+}
+
+.image-container {
+
+    position: relative;
+    display: inline-block;
+    box-shadow: 1px 1px 15px 10px black;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+
+}
+
+.image-container p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+
+
+}
