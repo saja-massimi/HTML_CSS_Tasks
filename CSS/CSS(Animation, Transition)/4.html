@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task #4</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: start;
+
+
+            animation: x-axis 4s ease;
+        }
+
+        @keyframes x-axis {
+            0% {
+                justify-content: start;
+            }
+
+            50% {
+                justify-self: center;
+            }
+
+            100% {
+                justify-content: end;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="cloud.jpg" alt="a cloud">
+    </div>
+</body>
+
+</html>

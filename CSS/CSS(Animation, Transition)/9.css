@@ -1,0 +1,48 @@
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    width: 20vw;
+    background-color: white;
+    box-shadow: 2px 2px 30px black;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    margin: 30px;
+    height: 50vh;
+    transition: all 2s ease;
+}
+
+.container:hover {
+    transform: scale(1.1);
+}
+
+button:hover {
+    background-color: rgb(114, 204, 228);
+    color: aliceblue;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.price {
+    background-color: rgb(154, 204, 225);
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+button {
+    background-color: white;
+    color: rgb(154, 204, 225);
+    border: 0.5px solid black;
+    padding: 20px;
+    width: 100%;
+}
