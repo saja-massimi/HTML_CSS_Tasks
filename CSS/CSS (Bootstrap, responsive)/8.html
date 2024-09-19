@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task #8</title>
+    <style>
+        .container {
+            display: flex;
+            font-size: 2rem;
+        }
+
+        .item1 {
+            background-color: rgb(78, 78, 255);
+        }
+
+        .item2 {
+            flex-grow: 1;
+            background-color: gainsboro;
+        }
+
+        .item3 {
+            background-color: green;
+        }
+
+        @media (max-width:800px) {
+            .container {
+                display: flex;
+                flex-direction: column;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Media Queries</h1>
+    <p>Resize the browser window.</p>
+    <p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+
+    <div class="container">
+        <div class="item1">Left Menu</div>
+        <div class="item2">Main Content</div>
+        <div class="item3">Right Content</div>
+    </div>
+</body>
+
+</html>

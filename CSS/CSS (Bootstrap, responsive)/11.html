@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task #11</title>
+    <style>
+        body {
+            background-color: rgb(135, 203, 135);
+        }
+
+        main {
+
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+
+        }
+
+        @media (max-width:300px) {
+            body {
+                background-color: white;
+            }
+
+            main {
+                display: grid;
+                grid-template-rows: repeat(5, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Media Query demo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore at dolor repellat ratione vel eaque libero!
+            Culpa iusto consectetur enim eligendi sit alias quae officiis ex suscipit labore quos asperiores hic numquam
+            soluta, at eius qui, ratione sapiente repudiandae dolorum saepe voluptatem provident quidem. Beatae
+            obcaecati perferendis impedit temporibus non.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, accusantium! Officia asperiores repellat
+            tempore magnam reprehenderit maiores voluptatem commodi nobis!</p>
+    </header>
+
+    <main>
+        <img src="cat1.jpg" alt="">
+        <img src="cat2.jpg" alt="">
+        <img src="cat3.jpg" alt="">
+        <img src="cat4.jpg" alt="">
+        <img src="cat5.jpg" alt="">
+    </main>
+</body>
+
+</html>
